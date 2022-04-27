@@ -1,0 +1,19 @@
+{
+  "name": "de.tensai.wcf.bbcode.nzblnk",
+  "version": "0.0.1",
+  "description": "Woltlab Community Suite Plugin for a NZBlnk links BBCode",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "author": "Tensai",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-tar": "^3.1.0"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}

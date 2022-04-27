@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/typhoon/package.xsd" name="de.tensai.wsc.bbcode.nzblnk">
+	<packageinformation>
+		<packagename><![CDATA[NZBlnk BBCode]]></packagename>
+		<packagedescription><![CDATA[BBCode for NZBlnk links]]></packagedescription>
+		<packagedescription language="de"><![CDATA[BBCode für NZBlnk-Links]]></packagedescription>
+		<version>0.0.1</version>
+		<date>2022-01-13</date>
+		<license><![CDATA[MIT]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Tensai]]></author>
+		<authorurl><![CDATA[https://github.com/Tensai75/de.tensai.wsc.bbcode.nzblnk]]></authorurl>
+	</authorinformation>
+	
+	<compatibility>
+		<api version="2017" />
+		<api version="2018" />
+	</compatibility>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0 Beta 5">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+
+		<!-- files -->
+		<instruction type="file" />
+		
+		<!-- templates -->
+		<instruction type="template" />
+
+		<!-- xml -->
+		<instruction type="bbcode" />
+
+	</instructions>
+
+	<instructions type="update" fromversion="0.*">
+
+		<!-- files -->
+		<instruction type="file" />
+		
+		<!-- templates -->
+		<instruction type="template" />
+
+		<!-- xml -->
+		<instruction type="bbcode" />
+
+	</instructions>
+</package>
