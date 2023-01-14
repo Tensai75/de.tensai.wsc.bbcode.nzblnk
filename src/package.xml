@@ -4,8 +4,8 @@
 		<packagename><![CDATA[NZBlnk BBCode]]></packagename>
 		<packagedescription><![CDATA[BBCode for NZBlnk links]]></packagedescription>
 		<packagedescription language="de"><![CDATA[BBCode für NZBlnk-Links]]></packagedescription>
-		<version>0.0.2</version>
-		<date>2022-04-27</date>
+		<version>0.0.3</version>
+		<date>2023-01-14</date>
 		<license><![CDATA[MIT]]></license>
 	</packageinformation>
 	
