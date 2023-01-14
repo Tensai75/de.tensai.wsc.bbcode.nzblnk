@@ -40,6 +40,7 @@ class nzblnkBBCode extends AbstractBBCode{
                         foreach ($parameters['g'] as $group) {
                             $nzblnk .= '&g='.rawurlencode(rawurldecode($group));
                         }
+                    }
                     $nzblnk .= count($parameters['d']) > 0 ? '&d='.rawurlencode(rawurldecode($parameters['d'][0])) : '';
                     WCF::getTPL()->assign([
                             'nzblnk' => $nzblnk,
