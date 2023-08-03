@@ -24,7 +24,7 @@ class nzblnkBBCode extends AbstractBBCode{
     public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) {
         if ($parser->getOutputType() == 'text/html') {
             if (is_array($openingTag['attributes']) && count($openingTag['attributes']) > 0 && $openingTag['attributes'][0] != '') {
-                $re = '/(?:[&?](?:amp;)?([htpgd])=([^&]+))/i';
+                $re = '/(?:[&?](?:amp;)*([htpgd])=([^&]+))/i';
                 preg_match_all($re, html_entity_decode($openingTag['attributes'][0]), $matches, PREG_SET_ORDER);
                 foreach (str_split('htpgd') as $parameter) {
                     $parameters[$parameter] = [];
